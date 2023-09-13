@@ -102,6 +102,8 @@ def get_bvid_list(keyword):
 
 
 def get_keyword():
+    # input('请输入要查找的关键字: ')
+    # s = '日本核污水排海'
     return str(input('请输入要查找的关键字: ').encode('utf-8')).upper()[2:-1].replace('\\X', '%')
 
 

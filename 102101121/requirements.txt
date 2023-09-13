@@ -1,0 +1,7 @@
+jieba
+matplotlib
+numpy
+pandas
+Requests
+wordcloud
+openpyxl
